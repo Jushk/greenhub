@@ -58,7 +58,7 @@ const ProfilePage = () => {
   };
 
   const isMyPost = (author) => {
-    return author === userId;
+    return author._id === userId;
   };
 
   const onSave = async (updatedUser) => {
